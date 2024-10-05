@@ -3,38 +3,52 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #f4f4f4;
+    color: #2F4F4F; /* Dark Slate Gray for text */
+    background-color: #FAF9F6; /* Off-White for a light background */
 }
+
 header, footer {
-    background: #333;
-    color: #fff;
+    background: #008080; /* Teal for header and footer */
+    color: #fff; /* White text on a dark background */
     text-align: center;
     padding: 1em 0;
 }
+
 nav {
     display: flex;
     justify-content: center;
-    background: #444;
+    background: #FF7F50; /* Coral for the navigation bar */
     padding: 0.5em 0;
 }
+
 nav a {
     color: white;
     padding: 0 15px;
     text-decoration: none;
     font-size: 16px;
 }
+
 nav a:hover {
-    background-color: #555;
+    background-color: #FFD700; /* Gold on hover for a bright accent */
 }
+
 .container {
     width: 85%;
     margin: auto;
     overflow: hidden;
 }
+
 section {
     margin: 20px;
     padding: 20px;
     border: 1px solid #ddd;
-    background: white;
+    background: white; /* White for sections to keep content clear and bright */
+}
+
+.profile-img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto; /* Centers the image with a top and bottom margin */
 }
