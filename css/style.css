@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+header, footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background: #444;
+    padding: 0.5em 0;
+}
+nav a {
+    color: white;
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+nav a:hover {
+    background-color: #555;
+}
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background: white;
+}
